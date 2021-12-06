@@ -3,7 +3,9 @@
 .project
 .settings/
 *.iml
+**/**/.idea/
 bin/
+.idea/*
 
 # Package Files #
 *.jar
@@ -17,5 +19,9 @@ out*.docx
 out_*
 merge_all
 
+/doc/*
+
 #private
+**/**/mk.md
 complex.docx
+~$*.docx
